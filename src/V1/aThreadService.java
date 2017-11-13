@@ -121,11 +121,8 @@ public class aThreadService extends Thread {
                             outToClient.writeBytes(tMess[2] + " > " + tMess[3] + " : " + tMess[4] + "\n");
                         }catch(NullPointerException e){
                             System.out.println("erreur de "+myClient+" : format non valide ou expediteur/destinataire non existant !");
-                        }
-                        finally {
                             outToClient.writeBytes("erreur : format non valide ou expediteur/destinataire non existant !\n");
                         }
-
                     }
 	            }
             }
