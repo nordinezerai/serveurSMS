@@ -106,7 +106,7 @@ public class aThreadService extends Thread {
                         });
 
                     } else{ // Si l'utilisateur est spécifié, on envoie un message à ce dernier
-
+                        //Gestion du cas ou le message n'est pas au bon format
                         try {
                             //Récupère le socket du destinataire
                             Socket recipientSocket = myAnnuaire.getScoket(recipient);
