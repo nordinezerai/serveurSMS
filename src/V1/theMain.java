@@ -7,7 +7,6 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import V1.common;
 /**
  * Created by jepradat on 09/11/2017.
  */
